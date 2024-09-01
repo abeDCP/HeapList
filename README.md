@@ -33,4 +33,20 @@ To use the plugin, run Volatility3 with the following command:
 
 ```bash
 vol.py -f <memory_dump> windows.heaplist.HeapList [options]
+ ```
+
+## Options
+
+- --pid: Specify the process ID (PID) to analyze. If not specified, the plugin will analyze all processes.
+- --dump-all: Dump all heap fragments from the specified process or processes.
+- --dump: Specify the address of the heap fragment to download.
+
+
+## Example
+To analyze the heaps of a specific process with PID 1234 and dump all heap fragments:
+
+```bash
+vol.py -f memory.dmp windows.heap_extraction -p 1234 --dump-all
+```
+
 
