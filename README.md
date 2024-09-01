@@ -18,7 +18,7 @@ This plugin is designed for use with the Volatility3 framework. It allows forens
 To install the plugin, follow these steps:
 
 1. Clone or download this repository to your local machine.
-2. Ensure that you have Volatility3 installed and properly configured. You can follow the official installation guide [here](https://volatilityfoundation.org/installation).
+2. Ensure that you have Volatility3 installed and properly configured. You can follow the official installation guide [here](https://github.com/volatilityfoundation/volatility3).
 3. Copy the plugin file into the appropriate Volatility3 plugin directory:
 
     ```bash
