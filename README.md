@@ -46,7 +46,7 @@ vol.py -f <memory_dump> windows.heaplist.HeapList [options]
 To analyze the heaps of a specific process with PID 1234 and dump all heap fragments:
 
 ```bash
-vol.py -f memory.dmp windows.heap_extraction -p 1234 --dump-all
+vol.py -f memory.dmp windows.heaplist.HeapList -p 1234 --dump-all
 ```
 
 
