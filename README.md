@@ -22,7 +22,7 @@ To install the plugin, follow these steps:
 3. Copy the plugin file into the appropriate Volatility3 plugin directory:
 
     ```bash
-    cp heap_extraction_plugin.py /path/to/volatility3/volatility3/plugins/windows/
+    cp heaplist.py /path/to/volatility3/volatility3/plugins/windows/
     ```
 
 4. The plugin is now ready to use with Volatility3.
